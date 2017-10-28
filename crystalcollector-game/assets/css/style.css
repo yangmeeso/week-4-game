@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	background-image: url ("")
+
+}
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+h1, #wins, #loses, #userscore {
+	font-weight: bold;
+	text-align: center;
+}
+
