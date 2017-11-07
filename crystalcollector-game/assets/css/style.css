@@ -3,12 +3,16 @@
 }
 
 body {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 18px;
-	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
 	display: block;
-	background-image: url ("")
+	text-align: center;
+}
 
+footer {
+	clear: both;
+	font-size: 15px;
+	padding: 60px 0 20px 0;
 }
 
 .container {
@@ -16,10 +20,78 @@ body {
 	max-width: 960px;
 	margin: 0 auto;
 	clear: both;
+
 }
 
-h1, #wins, #loses, #userscore {
+.header h1 {
+	font-family: 'Lobster Two', cursive;
 	font-weight: bold;
+	width: 100%;
+	max-width: 960px;
+	position: absolute;
 	text-align: center;
+	margin-top: 105px;
 }
+
+.header img {
+    align-items: center;
+    margin: 20px 0 40px 0;
+}
+
+#instruction {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #2e8dad;
+	color: #ffffff;
+}
+
+.scores__container {
+	width: 100%;
+	max-width: 500px;
+	margin: 15px auto;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#counter, #userscore {
+	color: #303030;
+}
+
+.wins-loses {
+	width: 100%;
+	max-width: 200px;
+	text-align: center;
+	margin: 20px auto;
+	border: 5px dotted #c4e5ff;
+	border-radius: 10px;
+	color: #b494e0;
+	background-color: #fffab5;
+}
+
+
+#crystal-1 {
+	margin: 15px;
+	background-color: #83cae2;
+}
+
+#crystal-2 {
+	margin: 15px;
+	background-color: #83cae2;
+}
+
+#crystal-3 {
+	margin: 15px;
+	background-color: #83cae2;
+}
+
+#crystal-4 {
+	margin: 15px;
+	background-color: #83cae2;
+}
+
+
+
+
 
